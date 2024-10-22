@@ -1,5 +1,5 @@
 #! /usr/bin/python
-
+# ghp_ANgLuN60tk8VkPeWt
 # Nguyen Tan Phat
 # MSSV: 23-0-00111
 # Du an ket thuc mon
@@ -203,6 +203,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # ghp_ANgLuN60tk8VkPeWt
     # wrhGToLSWsrJd1cVSik
 
