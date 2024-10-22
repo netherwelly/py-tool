@@ -140,7 +140,7 @@ def main():
         choice = input("Chọn một chức năng: ")
 
         if choice == "1":
-            print("\n1. Thêm thiết bị\n2. Xóa thiết bị\n3. Sửa thiết bị\n4. Tìm thiết bị\n5. Liệt kê thiết bị")
+            print("\n1. Thêm thiết bị\n2. Xóa thiết bị\n3. Sửa thiết bị\n4. Tìm thiết bị\n5. Liệt kê thiết bị\n6. back")
             sub_choice = input("Chọn một chức năng quản lý thiết bị: ")
 
             if sub_choice == "1":
@@ -164,7 +164,7 @@ def main():
                 manager.list_devices()
 
         elif choice == "2":
-            print("\n1. Lưu dữ liệu\n2. Tải dữ liệu\n3. Nhập từ CSV\n4. Xuất ra CSV")
+            print("\n1. Lưu dữ liệu\n2. Tải dữ liệu\n3. Nhập từ CSV\n4. Xuất ra CSV\n5. back")
             sub_choice = input("Chọn một chức năng: ")
 
             if sub_choice == "1":
@@ -181,7 +181,7 @@ def main():
                 manager.export_to_csv(filename, manager.devices)
 
         elif choice == "3":
-            print("\n1. Ping\n2. NSLookup\n3. Kiểm tra băng thông\n4. Khám phá mạng")
+            print("\n1. Ping\n2. NSLookup\n3. Kiểm tra băng thông\n4. Khám phá mạng\n5. back")
             sub_choice = input("Chọn một chức năng kiểm tra mạng: ")
 
             if sub_choice == "1":
